@@ -5,6 +5,7 @@
 Write your code in this editor and press "Debug" button to debug program.
 
 *******************************************************************************/
+// From Faliq and Am SCSR Class
 import java.util.*;
 
 public class Lab2
@@ -109,8 +110,7 @@ public class Lab2
                     count++;
                 }   
         }
-        
-            
+         
             //Check for maximum partition
             for(int i=0;i<process.size();){
                 max=Collections.max(partition);
@@ -176,11 +176,7 @@ public class Lab2
                waitTime+=process.get(i).get(cpuBurst);
             }
             
-        
-           
-            
-            
-            
+     
             System.out.println("\n\n------------------------------------------------\n");
             //System Status Detail
             System.out.println("\n\nSystem Status\n");
@@ -195,16 +191,11 @@ public class Lab2
             System.out.println("Internal Fragmentation(KB) : "+iFragment+"\n");
             System.out.println("Hole :"+hole+"\n");
             
-           
-        
+    
         }while(queue.size()>0);
-        
-        
-        
-        
-        
+ 
 	}     
 }
 
-
+//Faliq and Am SCSR OS Class 19/20 --> The Great Lockdown
 
